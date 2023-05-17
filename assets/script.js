@@ -24,3 +24,6 @@ $(function () {
 function something (something) {
   console.log(1);
 }
+function something (something) {
+  console.log(1);
+}
