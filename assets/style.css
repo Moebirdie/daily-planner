@@ -57,3 +57,21 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+#clearBtn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: orangered;
+  color: aliceblue;
+  border: 1px solid orangered;
+  margin-right: 20px;
+}
+#clearBtn:hover {
+  background-color: red;
+ }
+#clearBtn i {
+  padding-right: 10px;
+}
+.clearbtn-container {
+  max-width:600px;
+  float: right;
+}
