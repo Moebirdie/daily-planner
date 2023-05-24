@@ -3,14 +3,15 @@
 // in the html.
 $(function () {
 
-  var now12Hour = dayjs().format('dddd, MMMM D, YYYY h:mm A');
-  var now24HourTime = dayjs().format('H');
-  console.log(now12Hour, now24HourTime);
+ // var now12Hour = dayjs().format('dddd, MMMM D, YYYY h:mm:ss A');
+ // var now24HourTime = dayjs().format('H');
+ // console.log(now12Hour, now24HourTime);
   var timeBlock = document.querySelectorAll('.time-block');
   var calendarItem = document.getElementsByClassName("description");
 
 
   setInterval(function () {
+    now12Hour = dayjs().format('dddd, MMMM D, YYYY h:mm:ss A');
     $('#currentDay').text(now12Hour)
   }, 1000);
 
@@ -36,6 +37,7 @@ $(function () {
   }
 
   function addRemoveClass() {
+    now24HourTime = dayjs().format('H');
     for (i = 0; i < timeBlock.length; i++) {
       var idTime = $(timeBlock[i]).attr('id').split('hour-');
       var idName = $(timeBlock[i]).attr('id');
@@ -44,14 +46,17 @@ $(function () {
       if (Number(idTime[1]) < now24HourTime) {
         $(id).removeClass('present', 'future');
         $(id).addClass('past');
+        console.log(idTime[1]);
       }
       if (Number(idTime[1]) === now24HourTime) {
         $(id).removeClass('past', 'future');
         $(id).addClass('present');
+        console.log(idTime[1]);
       }
       if (Number(idTime[1]) > now24HourTime) {
         $(id).removeClass('present', 'past');
         $(id).addClass('future');
+        console.log(idTime[1]);
       }
       console.log(idTime[1], idName, id, now24HourTime);
       refresh();
