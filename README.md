@@ -8,20 +8,36 @@ Although the calendar page only displays the hours 8am to 8pm, the code was writ
 This is a browser based app which requires no installation, only a url to access.
 
 
-### Usage
+## Usage
 When opened by the user for the first time, a one page calendar is shown with the current date and time displayed in the header.  An empty calendar renders below with hourly time blocks to enter and save data.  The expected behavior using this calendar is as follows:
 
-    - I can visually see which hourly time slots are in the past, current and future based on their color.
-
-    - I can see within 5 mins after any given hour if an hourly slot has changed from present to past and/or future to present
-
-    - As a user, I can enter data into a time slot and click the save button.  That data will persist.
-
-    - As a user, if I close my browser and reopen the webpage, the data will re-populate on page load.
-
-    - As a user, if I refresh the page, the data will persist.
-
-    - As a user, if I clear an item from a time block and click save, it will remove the item permanently.
-
-    - As a user, if I click the clear-all button at the bottom of the calendar, it will clear all calendar entries for the day.
+    * As a user, I can visually see the day of the week, and time of day in the header of my calendar. This data updates each second so the current time is displayed.  
+    * As a user, I can visually see the state of each hourly time block, whether they are in the past, present or future, based on their color.  
+    * As a user, if I keep my calendar open and the time moves to the next hour, within 10 mins my calendar will update the coloring to reflect the current state of the time blocks.
+    * As a user, I can enter data into a time block and click the save button; That data will persist.  
+    * As a user, if I refresh my page, the data will persist.  
+    * As a user, if I close my browser and reopen the webpage, the data I saved will repopulate when the page displays.  
+    * As a user, I can edit the data in any time block, including removing the data, save it and that changed data will persist.  
+    * As a user, I can navigate to the bottom of the calendar and click the clear all button; All data is permanently removed from the time blocks.  
     
+## Visual Description
+
+Initial page load of calendar.  Displays current date and time, and color coded time blocks reflecting their state, either past, present or future.
+
+
+
+Updated time block of information that has been saved.
+
+
+
+Page view after closing browser and reopening calendar page.
+
+
+
+Page view after clear all button clicked.
+    
+
+
+
+## License
+MIT 
