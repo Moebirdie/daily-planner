@@ -1,11 +1,6 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+// Wrap all code to execute after DOM load - a document ready shortcut function
 $(function () {
 
- // var now12Hour = dayjs().format('dddd, MMMM D, YYYY h:mm:ss A');
- // var now24HourTime = dayjs().format('H');
- // console.log(now12Hour, now24HourTime);
   var timeBlock = document.querySelectorAll('.time-block');
   var calendarItem = document.getElementsByClassName("description");
 
@@ -35,7 +30,7 @@ $(function () {
 
     }
   }
-
+  // update colors on page load or refresh of page
   function addRemoveClass() {
     now24HourTime = dayjs().format('H');
     for (i = 0; i < timeBlock.length; i++) {
@@ -66,10 +61,10 @@ $(function () {
     window.location.reload();
   }
 
-function clearAll() {
-  localStorage.clear();
-  refresh();
-}
+  function clearAll() {
+    localStorage.clear();
+    refresh();
+  }
 
   $('.saveBtn').on("click", saveItem);
   $('#clearBtn').on("click", clearAll);

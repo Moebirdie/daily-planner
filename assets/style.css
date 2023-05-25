@@ -57,6 +57,7 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
 #clearBtn {
   padding: 5px 10px;
   border-radius: 8px;
@@ -66,23 +67,28 @@ textarea {
   max-width: 150px;
   margin: auto;
 }
+
 #clearBtn:hover {
   background-color: red;
- }
+}
+
 #clearBtn i {
   padding-right: 10px;
 }
+
 .clearbtn-container {
   width: 100%;
   display: flex;
   align-items: center;
   margin: 40px auto;
 }
+
 @media screen and (max-width: 600px) {
   .px-5 {
-    padding-right: 10px!important;
-    padding-left: 10px!important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
   }
+
   .lead {
     font-size: 18px;
   }
