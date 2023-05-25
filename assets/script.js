@@ -48,7 +48,7 @@ $(function () {
         $(id).addClass('past');
         console.log(idTime[1]);
       }
-      if (Number(idTime[1]) === now24HourTime) {
+      if (Number(idTime[1]) == now24HourTime) {
         $(id).removeClass('past', 'future');
         $(id).addClass('present');
         console.log(idTime[1]);
@@ -59,26 +59,17 @@ $(function () {
         console.log(idTime[1]);
       }
       console.log(idTime[1], idName, id, now24HourTime);
-      refresh();
     }
   }
 
   function refresh() {
-    $("#calendarcontainer").load(window.location.href + " #calendarcontainer");
+    window.location.reload();
   }
 
 function clearAll() {
   localStorage.clear();
   refresh();
 }
-
-
-
-  //update the calendar colors every 5 minutes
-  setInterval(function () {
-    addRemoveClass();
-    console.log("banana");
-  }, 300000);
 
   $('.saveBtn').on("click", saveItem);
   $('#clearBtn').on("click", clearAll);
