@@ -25,18 +25,22 @@ When opened by the user for the first time, a one page calendar is shown with th
 
 Initial page load of calendar.  Displays current date and time, and color coded time blocks reflecting their state, either past, present or future.
 
+![image](https://github.com/Moebirdie/daily-planner/assets/93432701/02d4d80c-6d54-4115-9fcd-878c6fdd4fd9)
 
 
 Updated time block of information that has been saved.
 
+![image](https://github.com/Moebirdie/daily-planner/assets/93432701/743d0dc8-07ac-46f3-92b9-bb7b134108fe)
 
 
 Page view after closing browser and reopening calendar page.
 
+![image](https://github.com/Moebirdie/daily-planner/assets/93432701/d0ce54ab-debb-4db2-9c2e-33eed9fdfaa5)
 
 
 Page view after clear all button clicked.
     
+![image](https://github.com/Moebirdie/daily-planner/assets/93432701/81a001b3-34b0-40cc-97bf-c721a223db47)
 
 
 
