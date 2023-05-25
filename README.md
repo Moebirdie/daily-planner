@@ -21,36 +21,40 @@ When opened by the user for the first time, a one page calendar is shown with th
 * As a user, if I refresh my page, the data will persist.  
 * As a user, if I close my browser and reopen the webpage, the data I saved will repopulate when the page displays.  
 * As a user, I can edit the data in any time block, including removing the data, save it and that changed data will persist.  
-* As a user, I can navigate to the bottom of the calendar and click the clear all button; All data is permanently removed from the time blocks.  
+* As a user, I can navigate to the bottom of the calendar and click the clear all button; All data is permanently removed from the time blocks and I am left with a blank calendar.  
     
 ## Visual Description
 
-Initial page load of calendar.  Displays current date and time, and color coded time blocks reflecting their state, either past, present or future.
+**Initial page load of calendar.  Displays current date and time, and color coded time blocks reflecting their state, either past, present or future.**
 
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/02d4d80c-6d54-4115-9fcd-878c6fdd4fd9)
 
-
-Updated time block of information that has been saved.
+  
+**Updated time block of information that has been saved.**
 
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/743d0dc8-07ac-46f3-92b9-bb7b134108fe)
 
-
-Page view after closing browser and reopening calendar page.
+  
+  
+**Page view after closing browser and reopening calendar page.**
 
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/d0ce54ab-debb-4db2-9c2e-33eed9fdfaa5)
 
-
-Clear all button - clears page.  Not required but simple addition.
+  
+  
+**Clear all button - clears page.  Not required but simple addition.**
 
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/f13d1c27-3ade-4397-a6f9-428b77b93745)
 
-
-Page view after clear all button clicked.
+  
+  
+**Page view after clear all button clicked.**
     
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/81a001b3-34b0-40cc-97bf-c721a223db47)
 
 
-
+  
+  
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
