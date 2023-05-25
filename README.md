@@ -41,7 +41,7 @@ Page view after clear all button clicked.
 
 
 ## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-MIT 
 
 
