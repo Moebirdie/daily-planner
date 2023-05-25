@@ -40,6 +40,11 @@ Page view after closing browser and reopening calendar page.
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/d0ce54ab-debb-4db2-9c2e-33eed9fdfaa5)
 
 
+Clear all button - clears page.  Not required but simple addition.
+
+![image](https://github.com/Moebirdie/daily-planner/assets/93432701/f13d1c27-3ade-4397-a6f9-428b77b93745)
+
+
 Page view after clear all button clicked.
     
 ![image](https://github.com/Moebirdie/daily-planner/assets/93432701/81a001b3-34b0-40cc-97bf-c721a223db47)
