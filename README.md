@@ -7,7 +7,7 @@ Although the calendar page only displays the hours 8am to 8pm, the code was writ
 ## Installation
 This is a browser based app which requires no installation, only a url to access.
 
-Github Repository:  https://github.com/Moebirdie/daily-planner
+Github Repository:  https://github.com/Moebirdie/daily-planner  
 Live URL https://moebirdie.github.io/daily-planner/
 
 
