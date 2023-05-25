@@ -63,7 +63,8 @@ textarea {
   background-color: orangered;
   color: aliceblue;
   border: 1px solid orangered;
-  margin-right: 20px;
+  max-width: 150px;
+  margin: auto;
 }
 #clearBtn:hover {
   background-color: red;
@@ -72,6 +73,18 @@ textarea {
   padding-right: 10px;
 }
 .clearbtn-container {
-  max-width:600px;
-  float: right;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+}
+@media screen and (max-width: 600px) {
+  .px-5 {
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+  }
+  .lead {
+    font-size: 18px;
+  }
+
 }

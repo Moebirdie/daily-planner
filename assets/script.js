@@ -11,7 +11,7 @@ $(function () {
 
 
   setInterval(function () {
-    now12Hour = dayjs().format('dddd, MMMM D, YYYY h:mm:ss A');
+    now12Hour = dayjs().format('dddd, MMMM D, YYYY h:mm A');
     $('#currentDay').text(now12Hour)
   }, 1000);
 
