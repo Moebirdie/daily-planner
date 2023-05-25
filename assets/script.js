@@ -61,6 +61,10 @@ $(function () {
     window.location.reload();
   }
 
+  setInterval(function () {
+    refresh();
+  }, 600000);
+
   function clearAll() {
     localStorage.clear();
     refresh();
